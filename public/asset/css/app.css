@@ -1,0 +1,34 @@
+body{
+    background-image: url('../images/bg2.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.head{
+    height: 80vh;
+}
+
+.btn-fix{
+    width: 100% !important;
+}
+
+/* overwrite */
+
+.page-link{
+    color: #282b2f !important;
+}
+
+.page-item.active .page-link{
+    background-color: #282b2f !important;
+    border-color: #282b2f !important;
+    color: #fff !important;
+}
+
+.page-link:hover{
+    color: #282b2f !important;
+}
+
+.page-link:focus{
+    box-shadow: 0 0 0 .25rem rgb(40, 43, 47, .25);
+}
